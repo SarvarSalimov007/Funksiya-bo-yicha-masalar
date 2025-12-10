@@ -67,10 +67,36 @@
 #     return son * faktorial(son - 1)
 # print(faktorial(5))
 ##2-masala
-
-
-
-
+# def juftson(sonlar):
+#     yigindi = 0
+#     for son in sonlar:
+#         if son % 2 == 0:
+#             yigindi += son
+#     return yigindi
+# sonlar = [1,2,3,4,5,6]
+# print(juftson(sonlar))
+##3-masala
+# def unlilar_soni(matn):
+#     unlilarni_sanash = 0
+#     unlilar = 'aeiouAEIOU'
+#     for harf in matn:
+#         if harf in unlilar:
+#             unlilarni_sanash += 1
+#     return f"Unlilar soni: {unlilarni_sanash}ta"
+# matn = input('Matinni kiriting: ').lower()
+# print(unlilar_soni(matn))
+##4-masala
+# def daraja(x,y):
+#     return f"Sonning darajasi: {x ** y}"
+# x = int(input("X - sonni kiriting: "))
+# y = int(input("Y - sonni kiriting: "))
+# print(daraja(x,y))
+##5-masala
+# x = [4,2,9,1]
+# def katta_son(x):
+#     for y in x:
+#         return max(x)
+# print(katta_son(x))
 
 
 
